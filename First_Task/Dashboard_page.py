@@ -29,7 +29,7 @@ st.bar_chart(employee_count_by_dept)
 
 st.subheader("Salary distribution")#histogram
 fig, ax = plt.subplots()
-ax.hist(df['salary'], bins=10, color='skyblue', edgecolor='black')
+ax.hist(df['salary'], bins=10, color='blue', edgecolor='black')
 st.pyplot(fig)
 
 
